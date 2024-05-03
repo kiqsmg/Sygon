@@ -1,2 +1,43 @@
-# Sygon
+<h1 align="center">
+     Sygon
+    <br>
+</h1>
+
+<h4 align="center">Sygon is the premier platform for buying, selling, and trading carbon credits tokens. At Sygon, we're revolutionizing the way individuals and organizations participate in the fight against climate change by leveraging blockchain technology to make carbon credit trading more accessible, transparent, and efficient than ever before.</h4>
+
+<p align="center">
+    <a href="https://github.com/kiqsmg/Sygon/#versioning">
+        <img src="https://img.shields.io/badge/status-in%20development-red?style=for-the-badge">
+    </a>
+    <a href="https://github.com/kiqsmg/Sygon/commits/master">
+        <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/kiqsmg/Sygon?style=for-the-badge">
+    </a>
+    <a href="https://github.com/kiqsmg/Sygon/issues">
+        <img alt="GitHub issues" src="https://img.shields.io/github/issues/kiqsmg/Sygon?style=for-the-badge">
+    </a>
+    <a href="https://github.com/kiqsmg/Sygon/graphs/contributors">
+        <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/kiqsmg/Syconcolor=yellow&style=for-the-badge">
+    </a>
+</p>
+
+<p align="center">
+    <a href="#overview">Overview</a> •
+    <a href="#license">License</a> •
+    <a href="#releases">Releases</a> •
+</p>
+
+<p align="center" justify-content="center">
+    <img width="40%" src="https://github.com/kiqsmg/NanoSatTrack/blob/main/Pasta/Capturar.PNG">
+</p>
+
+## Overview
+
 Sygon is the premier platform for buying, selling, and trading carbon credits tokens. At Sygon, we're revolutionizing the way individuals and organizations participate in the fight against climate change by leveraging blockchain technology to make carbon credit trading more accessible, transparent, and efficient than ever before.
+
+## License
+
+This project is open-source under the licenses: GNU Lesser General Public License (LGPL) and ...
+
+## Releases
+
+The Sygon software releases is synchronized in order to garantee compatibility. Then, using diferent versions might lead to unpredictable behavior.
