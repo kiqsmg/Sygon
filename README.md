@@ -3,7 +3,7 @@
     <br>
 </h1>
 
-<h4 align="center">Sygon is the premier platform for buying, selling, and trading carbon credits tokens. At Sygon, we're revolutionizing the way individuals and organizations participate in the fight against climate change by leveraging blockchain technology to make carbon credit trading more accessible, transparent, and efficient than ever before.</h4>
+<h4 align="center">Sygon is the premier platform for buying, selling, and trading carbon credits tokens.</h4>
 
 <p align="center">
     <a href="https://github.com/kiqsmg/Sygon/#versioning">
@@ -27,7 +27,7 @@
 </p>
 
 <p align="center" justify-content="center">
-    <img width="40%" src="https://github.com/kiqsmg/NanoSatTrack/blob/main/Pasta/Capturar.PNG">
+    <img width="40%" src="https://github.com/kiqsmg/NanoSatTrack/blob/main/Pasta/img.PNG">
 </p>
 
 ## Overview
