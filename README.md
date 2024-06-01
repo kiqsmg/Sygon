@@ -3,7 +3,7 @@
     <br>
 </h1>
 
-<h4 align="center">Sygon is the premier platform for buying, selling, and trading carbon credits tokens.</h4>
+<h4 align="center">Sygon is a platform for buying, selling, and trading carbon credits tokens as east as never before.</h4>
 
 <p align="center">
     <a href="https://github.com/kiqsmg/Sygon/#versioning">
