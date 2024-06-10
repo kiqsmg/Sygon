@@ -1,8 +1,13 @@
+// GlobalState is used to manipulate global state within application
 import { useGlobalState } from '../store'
 import timelessLogo from '../assets/timeless.png'
+// connectWallet is a function that will be used to handle the wallet connection logic
 import { connectWallet } from '../TimelessNFT'
 
+
+//defie REACT function named Header
 const Header = () => {
+  // Use the useGlobalState Hook to get the connectedAcoount value from the global state 
   const [connectedAccount] = useGlobalState('connectedAccount')
 
   return (
