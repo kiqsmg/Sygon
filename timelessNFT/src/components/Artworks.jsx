@@ -1,12 +1,26 @@
+//Overall this code defines an "Artworks" component as the default export from the module, making t available for import in other files.
+// The Artwork component displayes a grid of NFT artworks. It includes functionality to load more artworks and view details of a selected artwork
+
+
+
+// useEffect and useState hooks from React are used for managing side effects and state within the components
 import { useEffect, useState } from 'react'
+// setGlobalState, useGlobalState, truncate are used for managing global state and truncating text
 import { setGlobalState, useGlobalState, truncate } from '../store'
 
+
+//define a React function named Artwork
 const Artworks = () => {
+  //Create a variable to contain the list of NFT artworks, using the useGlobalState hook to get the 'nfts' value from global state
   const [nfts] = useGlobalState('nfts')
+  // local state variable 'end' with a value of 4, and 'setEnd' is a function to update this state... will determine how many NFTs to display initially
   const [end, setEnd] = useState(4)
+  // local state variable 'count' to count the number of NFTs to load when the 'Load More' button is clicked
   const [count] = useState(4)
+  // local state variable 'collection' is an empty array, and 'setCollection' is a function to update this state, the variable stores subset of NFTs to be displayed
   const [collection, setCollection] = useState([])
 
+  // define the 'setNFT' function, and takes 'nft' as an argument... set the globalState 'nft' to ----> 'nft'
   const setNFT = (nft) => {
     setGlobalState('nft', nft)
     setGlobalState('showModal', 'scale-100')
