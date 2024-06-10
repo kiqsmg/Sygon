@@ -24,7 +24,7 @@ const Hero = () => {
     setGlobalState('modal', 'scale-100')
   }
 
-  //Function called when  'Recent Chats' button is clecked ----> the code retrives conversations
+  //Function called when  'Recent Chats' button is clicked ----> the code retrives conversations
   const onLunchRecent = () => {
     getConversations().then((convs) => {
       setConversations(convs)
@@ -32,6 +32,7 @@ const Hero = () => {
     })
   }
 
+  //Return statement, which will return a JSX element, it creates a 'div' with several Tailwind CSS classes for styling
   return (
     <div
       className="flex flex-col md:flex-row w-4/5 justify-between 
@@ -47,7 +48,6 @@ const Hero = () => {
             Mint and collect the hottest NFTs around.
           </p>
         </div>
-
         <div className="flex flex-row mt-5">
           {connectedAccount ? (
             <>
