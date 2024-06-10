@@ -1,15 +1,22 @@
 import Identicon from 'react-identicons'
+//the setGlobalState, useGlobalState, truncate functions are used to manage global state and truncanting text
 import { setGlobalState, useGlobalState, truncate } from '../store'
+// Th fucntions getConversations, loginWithCometChat, signUpWithCometChat handle chat related operations
 import { getConversations, loginWithCometChat, signUpWithCometChat } from '../CometChat'
+//The Chatlist component will be used to display a list of chat conversations
 import ChatList from './ChatList'
+//useState hook from REACT allows the component to have its own local state
 import { useState } from 'react'
 
 const Hero = () => {
+  //use the useGlobalState Hook to get values from the global state connectedAccount, currentUser, recentOpened
   const [connectedAccount] = useGlobalState('connectedAccount')
   const [currentUser] = useGlobalState('currentUser')
   const [recentOpened] = useGlobalState('recentOpened')
+  //Use the useState Hook to create a local state variable 'conversations' and a function 'setConversations' to update it. Initial empty array
   const [conversations, setConversations] = useState([])
 
+  //Function called when 'Create NFT' button is clicked -----> check is the users ID does not match the connected accounts ID
   const onCreatedNFT = () => {
     if (currentUser?.uid.toLowerCase() != connectedAccount.toLowerCase())
       return alert('Please login to receive chats from buyers!')
@@ -17,6 +24,7 @@ const Hero = () => {
     setGlobalState('modal', 'scale-100')
   }
 
+  //Function called when  'Recent Chats' button is clecked ----> the code retrives conversations
   const onLunchRecent = () => {
     getConversations().then((convs) => {
       setConversations(convs)
