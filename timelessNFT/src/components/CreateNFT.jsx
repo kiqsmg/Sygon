@@ -1,23 +1,30 @@
+// Overall this component allows users to fill in details for an NFT, upload an image, and mint the NFT by interacting with IPFS and blockchain services
 
-
-
+//Import functions from store
 import {
   useGlobalState,
   setGlobalState,
   setLoadingMsg,
   setAlert,
 } from '../store'
+//import useState from React to manage component state              WHAT IS COMPONENT STATE?????????
 import { useState } from 'react'
 import { FaTimes } from 'react-icons/fa'
+//Import create from the http-client, which is used to interract with the IPFS                 what??????????
 import { create } from 'ipfs-http-client'
+// Not sure what this actually do ???????
 import { mintNFT } from '../Blockchain.Services'
 
+
+// Constructs a basic authorization header using environment variables        what???????????
 const auth =
   'Basic ' +
   Buffer.from(
     process.env.REACT_APP_INFURIA_PID + ':' + process.env.REACT_APP_INFURIA_API,
   ).toString('base64')
 
+
+  //Creates an IPFS client configured to connect to the Infura IPFS service using the authorization header defined earlier      what?????
 const client = create({
   host: 'ipfs.infura.io',
   port: 5001,
@@ -28,6 +35,7 @@ const client = create({
 })
 
 const CreateNFT = () => {
+  //Use custom hooks to define and manage state variables        how do state variables work again ???????
   const [modal] = useGlobalState('modal')
   const [title, setTitle] = useState('')
   const [price, setPrice] = useState('')
@@ -35,6 +43,7 @@ const CreateNFT = () => {
   const [fileUrl, setFileUrl] = useState('')
   const [imgBase64, setImgBase64] = useState(null)
 
+  //Define an asynchronous function that handles the form submission, check empty forms, catches any errors, and UPLOAD FILE TO IPFS AND GET METADATA URI AND MINT THE NFT  ??????????????
   const handleSubmit = async (e) => {
     e.preventDefault()
 
@@ -61,6 +70,7 @@ const CreateNFT = () => {
     }
   }
 
+  // Asynchronous function that handles image file changes
   const changeImage = async (e) => {
     const reader = new FileReader()
     if (e.target.files[0]) reader.readAsDataURL(e.target.files[0])
@@ -116,7 +126,7 @@ const CreateNFT = () => {
               />
             </div>
           </div>
-
+  
           <div className="flex flex-row justify-between items-center bg-gray-800 rounded-xl mt-5">
             <label className="block">
               <span className="sr-only">Choose profile photo</span>
