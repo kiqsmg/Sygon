@@ -5,6 +5,8 @@ import Hero from "./components/Hero";
 import Transactions from "./components/Transactions";
 import Footer from "./components/Footer";
 import CreateNFT from "./components/CreateNFT";
+import ShowNFT from "./components/ShowNFT";
+import UpdateNFT from "./components/UpdateNFT";
 
 const App = () => {
   return (
@@ -17,6 +19,8 @@ const App = () => {
       <Transactions />
       <Footer />
       <CreateNFT />
+      <ShowNFT />
+      <UpdateNFT />
     </div>
   )
 }
