@@ -126,7 +126,7 @@ const CreateNFT = () => {
               />
             </div>
           </div>
-  
+          
           <div className="flex flex-row justify-between items-center bg-gray-800 rounded-xl mt-5">
             <label className="block">
               <span className="sr-only">Choose profile photo</span>
