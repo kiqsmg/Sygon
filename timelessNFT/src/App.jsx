@@ -8,6 +8,7 @@ import CreateNFT from "./components/CreateNFT";
 import ShowNFT from "./components/ShowNFT";
 import UpdateNFT from "./components/UpdateNFT";
 import Loading from "./components/Loading";
+import Alert from "./components/Alert";
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
       <UpdateNFT />
       <Footer />
       <Loading />
+      <Alert />
     </div>
   )
 }
