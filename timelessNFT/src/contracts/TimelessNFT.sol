@@ -35,7 +35,7 @@ contract TimelessNFT is ERC721Enumerable, Ownable {
         uint256 timestamp
     );
 
-    // Solidity 'struct' used to organize and store info about NFT minting and buying transactions within the contract--> used to
+    // Solidity 'struct' used to organize and store info about NFT minting and buying transactions within the contract-->
     struct TransactionStruct {
         uint256 id;
         address owner;
