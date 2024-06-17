@@ -1,14 +1,17 @@
 import Identicon from 'react-identicons'
 //the setGlobalState, useGlobalState, truncate functions are used to manage global state and truncanting text
-import { setGlobalState, useGlobalState, truncate } from '../store'
+//import { setGlobalState, useGlobalState, truncate } from '../store'
+import { setGlobalState } from '../store'
+
 // Th fucntions getConversations, loginWithCometChat, signUpWithCometChat handle chat related operations
-import { getConversations, loginWithCometChat, signUpWithCometChat } from '../CometChat'
+//import { getConversations, loginWithCometChat, signUpWithCometChat } from '../CometChat'
 //The Chatlist component will be used to display a list of chat conversations
-import ChatList from './ChatList'
+//import ChatList from './ChatList'
 //useState hook from REACT allows the component to have its own local state
-import { useState } from 'react'
+//import { useState } from 'react'
 
 const Hero = () => {
+  /*
   //use the useGlobalState Hook to get values from the global state connectedAccount, currentUser, recentOpened
   const [connectedAccount] = useGlobalState('connectedAccount')
   const [currentUser] = useGlobalState('currentUser')
@@ -30,7 +33,8 @@ const Hero = () => {
       setConversations(convs)
       setGlobalState('recentOpened', true)
     })
-  }
+  } 
+  */
 
   //Return statement, which will return a JSX element, it creates a 'div' with several Tailwind CSS classes for styling
   return (
@@ -48,51 +52,15 @@ const Hero = () => {
             Mint and collect the hottest NFTs around.
           </p>
         </div>
+
         <div className="flex flex-row mt-5">
-          {connectedAccount ? (
-            <>
-              <button
-                className="shadow-xl shadow-black text-white
-                bg-[#e32970] hover:bg-[#bd255f]
-                rounded-full cursor-pointer p-2"
-                onClick={onCreatedNFT}
-              >
-                Create NFT
-              </button>
-              <>
-                {currentUser?.uid.toLowerCase() ==
-                connectedAccount.toLowerCase() ? (
-                  <button
-                    className="text-white border border-gray-500 
-                    hover:border-[#e32970] hover:bg-[#bd255f] cursor-pointer 
-                    rounded-full p-2 mx-3"
-                    onClick={onLunchRecent}
-                  >
-                    Recent Chats
-                  </button>
-                ) : (
-                  <>
-                    <button
-                      className="text-white border border-gray-500 
-                    hover:border-[#e32970] hover:bg-[#bd255f] cursor-pointer 
-                    rounded-full p-2 mx-3"
-                      onClick={() => loginWithCometChat(connectedAccount)}
-                    >
-                      Login for Chat
-                    </button>
-                    <button
-                      className="text-white border border-gray-500 
-                    hover:border-[#e32970] hover:bg-[#bd255f] cursor-pointer 
-                    rounded-full p-2 mx-3"
-                      onClick={() => signUpWithCometChat(connectedAccount, connectedAccount)}
-                    >
-                      Signup for Chat
-                    </button>
-                  </>
-                )}
-              </>
-            </>
-          ) : null}
+          <button
+            className="shadow-xl shadow-black text-white
+            bg-[#e32970] hover:bg-[#bd255f]
+            rounded-full cursor-pointer p-2"
+          >
+            Create NFT
+          </button>
         </div>
 
         <div className="w-3/4 flex justify-between items-center mt-5">
@@ -111,6 +79,7 @@ const Hero = () => {
         </div>
       </div>
 
+
       <div
         className="shadow-xl shadow-black md:w-2/5 w-full 
       mt-10 md:mt-0 rounded-md overflow-hidden bg-gray-800"
@@ -122,26 +91,16 @@ const Hero = () => {
         />
         <div className="flex justify-start items-center p-3">
           <Identicon
-            string={
-              connectedAccount
-                ? connectedAccount.toLowerCase()
-                : 'Connect Your Wallet'
-            }
+            string={'gbgdfjmghj'}
             size={50}
             className="h-10 w-10 object-contain rounded-full mr-3"
           />
           <div>
-            <p className="text-white font-semibold">
-              {connectedAccount
-                ? truncate(connectedAccount, 4, 4, 11)
-                : 'Connect Your Wallet'}
-            </p>
+            <p className="text-white font-semibold">0xe1...2d3f</p>
             <small className="text-pink-800 font-bold">@you</small>
           </div>
         </div>
       </div>
-
-      {recentOpened ? <ChatList users={conversations} /> : null}
     </div>
   )
 }
