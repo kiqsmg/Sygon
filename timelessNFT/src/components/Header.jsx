@@ -1,14 +1,14 @@
 // GlobalState is used to manipulate global state within application
-import { useGlobalState } from '../store'
+//import { useGlobalState } from '../store'
 import timelessLogo from '../assets/timeless.png'
 // connectWallet is a function that will be used to handle the wallet connection logic
-import { connectWallet } from '../TimelessNFT'
+//import { connectWallet } from '../TimelessNFT'
 
 
 //defie REACT function named Header
 const Header = () => {
   // Use the useGlobalState Hook to get the connectedAcoount value from the global state 
-  const [connectedAccount] = useGlobalState('connectedAccount')
+  //const [connectedAccount] = useGlobalState('connectedAccount')
 
   return (
     <nav className="w-4/5 flex md:justify-center justify-between items-center py-4 mx-auto">
@@ -31,18 +31,13 @@ const Header = () => {
         <li className="mx-4 cursor-pointer">Community</li>
       </ul>
 
-      {!connectedAccount ? (
-        <button
-          className="shadow-xl shadow-black text-white
-        bg-[#e32970] hover:bg-[#bd255f] md:text-xs p-2
-          rounded-full cursor-pointer"
-          onClick={connectWallet}
-        >
-          Connect Wallet
-        </button>
-      ) : (
-        <></>
-      )}
+      <button
+         className="shadow-xl shadow-black text-white
+       bg-[#e32970] hover:bg-[#bd255f] md:text-xs p-2
+         rounded-full cursor-pointer"
+      >
+        Connect Wallet
+      </button>
     </nav>
   )
 }
