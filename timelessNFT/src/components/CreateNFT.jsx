@@ -1,22 +1,27 @@
 // Overall this component allows users to fill in details for an NFT, upload an image, and mint the NFT by interacting with IPFS and blockchain services
 
 //Import functions from store
+/*
 import {
   useGlobalState,
   setGlobalState,
   setLoadingMsg,
   setAlert,
 } from '../store'
+*/
+import { useGlobalState,  setGlobalState } from '../store'
 //import useState from React to manage component state              WHAT IS COMPONENT STATE?????????
 import { useState } from 'react'
 import { FaTimes } from 'react-icons/fa'
 //Import create from the http-client, which is used to interract with the IPFS                 what??????????
-import { create } from 'ipfs-http-client'
+//import { create } from 'ipfs-http-client'
 // Not sure what this actually do ???????
-import { mintNFT } from '../Blockchain.Services'
+//import { mintNFT } from '../Blockchain.Services'
 
 
 // Constructs a basic authorization header using environment variables        what???????????
+/*
+
 const auth =
   'Basic ' +
   Buffer.from(
@@ -33,6 +38,7 @@ const client = create({
     authorization: auth,
   },
 })
+  */
 
 const CreateNFT = () => {
   //Use custom hooks to define and manage state variables        how do state variables work again ???????
