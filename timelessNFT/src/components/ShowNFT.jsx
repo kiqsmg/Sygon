@@ -110,7 +110,7 @@ const ShowNFT = () => {
             >
               Purchase Now
             </button>
-            <button
+            {/*<button
               className="flex flex-row justify-center items-center
               w-full text-[#e32970] text-md border-[#e32970]
               py-2 px-5 rounded-full bg-transparent
@@ -121,7 +121,7 @@ const ShowNFT = () => {
               onClick={onChangePrice}
             >
               Change Price
-            </button>
+            </button>*/}
           </div>
         </div>
       </div>
