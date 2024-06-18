@@ -58,6 +58,7 @@ const Hero = () => {
             className="shadow-xl shadow-black text-white
             bg-[#e32970] hover:bg-[#bd255f]
             rounded-full cursor-pointer p-2"
+            onClick={() => setGlobalState('modal', 'scale-100')}
           >
             Create NFT
           </button>
