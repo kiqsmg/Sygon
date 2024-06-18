@@ -9,7 +9,7 @@ import {
   setAlert,
 } from '../store'
 */
-import { useGlobalState,  setGlobalState } from '../store'
+import { useGlobalState, setGlobalState } from '../store'
 //import useState from React to manage component state              WHAT IS COMPONENT STATE?????????
 import { useState } from 'react'
 import { FaTimes } from 'react-icons/fa'
@@ -54,10 +54,13 @@ const CreateNFT = () => {
     e.preventDefault()
 
     if (!title || !price || !description) return
+    console.log('Minted...')
+    closeModal()
 
-    setGlobalState('modal', 'scale-0')
-    setGlobalState('loading', { show: true, msg: 'Uploading IPFS data...' })
+    //setGlobalState('modal', 'scale-0')
+    //setGlobalState('loading', { show: true, msg: 'Uploading IPFS data...' })
 
+    /*
     try {
       const created = await client.add(fileUrl)
       const metadataURI = `https://ipfs.io/ipfs/${created.path}`
@@ -74,9 +77,11 @@ const CreateNFT = () => {
       console.log('Error uploading file: ', error)
       setAlert('Minting failed...', 'red')
     }
+    */
   }
 
   // Asynchronous function that handles image file changes
+  /*
   const changeImage = async (e) => {
     const reader = new FileReader()
     if (e.target.files[0]) reader.readAsDataURL(e.target.files[0])
@@ -87,11 +92,12 @@ const CreateNFT = () => {
       setFileUrl(e.target.files[0])
     }
   }
-
+*/
   const closeModal = () => {
     setGlobalState('modal', 'scale-0')
     resetForm()
   }
+  
 
   const resetForm = () => {
     setFileUrl('')
@@ -108,7 +114,7 @@ const CreateNFT = () => {
         transition-transform duration-300 ${modal}`}
     >
       <div className="bg-[#151c25] shadow-xl shadow-[#e32970] rounded-xl w-11/12 md:w-2/5 h-7/12 p-6">
-        <form className="flex flex-col">
+        <form onSubmit={handleSubmit} className="flex flex-col">
           <div className="flex flex-row justify-between items-center">
             <p className="font-semibold text-gray-400">Add NFT</p>
             <button
@@ -146,7 +152,7 @@ const CreateNFT = () => {
                   file:bg-[#19212c] file:text-gray-400
                   hover:file:bg-[#1d2631]
                   cursor-pointer focus:ring-0 focus:outline-none"
-                onChange={changeImage}
+                //onChange={changeImage}
                 required
               />
             </label>
