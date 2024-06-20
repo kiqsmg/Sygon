@@ -11,11 +11,14 @@ const { setGlobalState, useGlobalState, getGlobalState } = createGlobalState({
   showModal: 'scale-0',
   alert: { show: false, msg: '', color: '' },
   loading: { show: false, msg: '' },
+  /*
   connectedAccount: '',
   nft: null,
   nfts: [],
   transactions: [],
   contract: null,
+  */
+  
 })
 
 // setAlert function which sets an alert message
@@ -35,6 +38,7 @@ const setLoadingMsg = (msg) => {
 }
 
 //function truncate which truncates a text string if it exceeds a certain length
+/*
 const truncate = (text, startChars, endChars, maxLength) => {
   if (text.length > maxLength) {
     var start = text.substring(0, startChars)
@@ -46,6 +50,7 @@ const truncate = (text, startChars, endChars, maxLength) => {
   }
   return text
 }
+*/
 
 export {
   useGlobalState,
@@ -53,5 +58,6 @@ export {
   getGlobalState,
   setAlert,
   setLoadingMsg,
-  truncate,
 }
+
+//truncate
