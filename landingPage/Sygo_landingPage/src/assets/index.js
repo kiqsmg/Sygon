@@ -13,8 +13,6 @@ import instagram from "./instagram.svg";
 import logo_grande from "./logo_grande.svg";
 import teamplayer01 from "./teamplayer01.jpeg";
 import teamplayer02 from "./teamplayer02.jpeg";
-import teamplayer03 from "./teamplayer03.jpg";
-import teamplayer04 from "./teamplayer04.jpeg";
 
 import whatsapp from "./whatsapp.svg";
 import tiktok from "./tiktok.svg";
@@ -36,6 +34,4 @@ export {
   tiktok,
   teamplayer01,
   teamplayer02,
-  teamplayer03,
-  teamplayer04,  
 };

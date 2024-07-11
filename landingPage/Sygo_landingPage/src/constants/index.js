@@ -1,4 +1,4 @@
-import { teamplayer01, teamplayer02, teamplayer03, teamplayer04, instagram, tiktok, send, shield, star, whatsapp  } from "../assets";
+import { teamplayer01, teamplayer02, instagram, tiktok, send, shield, star, whatsapp  } from "../assets";
 
 //basic plain data that can be changed by nonprogrammers
 
@@ -14,15 +14,15 @@ export const navLinks = [
   },
   {
     id: "carbono",
-    title: "Emissão de Carbono",
+    title: "Emissão",
   },
   {
     id: "credito",
-    title: "Crédito de Carbono",
+    title: "Crédito",
   },
   {
     id: "marketplace",
-    title: "Marketplce",
+    title: "Marketplace",
   },
   {
     id: "equipe",
@@ -59,27 +59,15 @@ export const teamplayers = [
     id: "teamplayer-1",
     img: teamplayer01,
     name: "Caique M.Gomes",
-    title: "Fullstack Developer",
+    title: "CTO",
     link: "https://www.linkedin.com/in/caique-sales-miranda-gomes-9b9a66185/",
   },
   {
     id: "teamplayer-2",
     img: teamplayer02,
-    name: "Leonardo Vieira",
-    title: "Software Developer",
-    link: "https://www.linkedin.com/in/vieiraleo/",
-  },
-  { id: "teamplayer-3",
-    img: teamplayer03,
-    name: "Bernar Avila",
-    title: "UI/UX Designer",
-    link: "https://www.instagram.com/bernar.rosa/",
-  },
-  { id: "teamplayer-4",
-    img: teamplayer04,
-    name: "Patrick Marangone",
-    title: "Software Developer",
-    link: "https://www.linkedin.com/in/patrickmarangone/",
+    name: "Marina Ventura",
+    title: "CEO",
+    link: "https://www.linkedin.com/in/marina-ribeiro-ventura/",
   },
 ];
 
@@ -169,7 +157,7 @@ export const socialMedia = [
   {
     id: "social-media-2",
     icon: instagram,
-    link: "https://www.instagram.com/",
+    link: "https://www.instagram.com/thesygon/",
   },
   {
     id: "social-media-3",
