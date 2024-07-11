@@ -1,7 +1,7 @@
 import logo from "./logo.svg";
 import logosygon from "./logosygon.svg";
 import quotes from "./quotes.svg";
-import robot from "./robot.png";
+import plant from "./plant6.png";
 
 import send from "./Send.svg";
 import shield from "./Shield.svg";
@@ -22,7 +22,7 @@ export {
   logo,
   logosygon,
   quotes,
-  robot,
+  plant,
   send,
   shield,
   star,

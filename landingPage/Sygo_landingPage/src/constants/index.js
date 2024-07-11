@@ -74,23 +74,23 @@ export const teamplayers = [
 export const stats = [
   {
     id: "stats-1",
-    title: "seguranca",
-    value: "+ SEGURANÇA",
+    title: "simples",
+    value: "+ SIMPLES",
   },
   {
     id: "stats-2",
-    title: "lucro",
-    value: "+ LUCRO",
+    title: "rápido",
+    value: "+ RÁPIDO",
   },
   {
     id: "stats-3",
-    title: "stress",
-    value: "- STRESS",
+    title: "poluente",
+    value: "- POLUENTE",
   },
   {
     id: "stats-4",
-    title: "emocao",
-    value: "- EMOÇÃO",
+    title: "burocrático",
+    value: "- BUROCRÁTICO",
   },
 ];
 
