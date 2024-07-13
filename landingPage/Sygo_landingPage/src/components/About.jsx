@@ -13,12 +13,8 @@ const About = () => (
       </div>
 
       <p className={`${styles.paragraph} max-w-[720px] mt-5 ss:text-[24px]`}>
-      Originada da visão conjunta de quatro fundadores brasileiros, movidos pela determinação de democratizar o universo dos investimentos,
-       o <span className="text-gradient">VORTEX</span> chega ao mercado de (Algoritmos) BOTs de trade para revolucionar e simplificar  essa modalidade de investimentos cercada
-        por mitos, inseguranças e charlatanismo.<br/><br/>
-        A ideia nasceu da convicção de que a automatização do trading poderia não apenas tornar os investimentos mais acessíveis,
-        mas também potencializar a eficácia das estratégias.
-      </p>
+        At <span className="text-gradient">SYGON</span>, we believe in making environmental development profitable. Our platform enables small and medium businesses to buy, sell, and trade carbon credit tokens. By leveraging blockchain technology, we make carbon credit trading more accessible, transparent, and efficient, revolutionizing how everyone can fight climate change.
+        </p>
 
     </div>
 

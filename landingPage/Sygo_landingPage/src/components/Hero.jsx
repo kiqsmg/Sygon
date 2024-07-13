@@ -11,7 +11,7 @@ const Hero = () => (
       <div className="flex flex-row justify-between items-center w-full">
         <h1 className="flex-1 font-poppins font-semibold ss:text-[50px] text-[32px] text-white ss:leading-[100px] leading-[40px] ">
           Tornando a <span className="text-gradient">preservação,</span> <br className="sm:block hidden"/>
-          lucrativa
+          um negócio lucrativo!
         </h1>
       </div>
 
