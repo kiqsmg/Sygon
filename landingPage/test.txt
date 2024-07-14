@@ -1,0 +1,1 @@
+This folder will contain the Sygon landing page only. We will later on work on the connection with the marketplace itself
