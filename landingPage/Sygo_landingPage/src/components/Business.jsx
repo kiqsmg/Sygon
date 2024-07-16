@@ -23,7 +23,7 @@ const Business = () => {
     <section id="bot" className={layout.section}>
         <div className={layout.sectionInfo}>
             <h2 className={styles.heading2}>
-                Deixe nossos <span className="text-gradient text-[44px]">BOTS</span> gerenciarem sua carteira, enquanto<br className="sm:block hidden" />você foca crescer <span className="text-gradient text-[44px]"> <br />seu negócio</span>.
+                Make your <span className="text-gradient text-[44px]">BUSINESS</span> asdasdasdasdasdad, enquanto<br className="sm:block hidden" />você foca crescer <span className="text-gradient text-[44px]"> <br />seu negócio</span>.
             </h2>
         </div>
 
