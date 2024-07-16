@@ -34,12 +34,12 @@ const Navbar = () => {
       </a>
     </li>
     <li className="cursor-pointer mr-10">
-      <a target="_blank" href="https://www.youtube.com/watch?v=zWHygvvSge8">
+      <a target="_blank" href="https://www.instagram.com/thesygon/">
         <img src={instagram} alt='Instagram logo'/>
       </a>
     </li>
     <li>
-      <a target="_blank" href="https://www.youtube.com/watch?v=uydfxLws3j8">
+      <a target="_blank" href="https://www.tiktok.com/@sygon.carbon">
         <img src={tiktok} alt='TikTok logo'/>
       </a>
     </li>

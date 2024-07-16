@@ -162,6 +162,6 @@ export const socialMedia = [
   {
     id: "social-media-3",
     icon: tiktok,
-    link: "https://www.tiktok.com/",
+    link: "https://www.tiktok.com/@sygon.carbon",
   },
 ];
