@@ -56,19 +56,19 @@ export const features = [
 
 export const teamplayers = [
   {
-    id: "teamplayer-1",
-    img: teamplayer01,
-    name: "Caique M.Gomes",
-    title: "CTO",
-    link: "https://www.linkedin.com/in/caique-sales-miranda-gomes-9b9a66185/",
-  },
-  {
     id: "teamplayer-2",
     img: teamplayer02,
     name: "Marina Ventura",
     title: "CEO",
     link: "https://www.linkedin.com/in/marina-ribeiro-ventura/",
   },
+  {
+    id: "teamplayer-1",
+    img: teamplayer01,
+    name: "Caique M.Gomes",
+    title: "CTO",
+    link: "https://www.linkedin.com/in/caique-sales-miranda-gomes-9b9a66185/",
+  }
 ];
 
 export const stats = [
