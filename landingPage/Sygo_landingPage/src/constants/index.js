@@ -36,21 +36,21 @@ export const features = [
     icon: star,
     title: "Praticidade",
     content:
-      "Basta escolher seu plano, contatar um de nossos agentes e depositar na conta. Nosso bot faz o resto por você.",
+      "Basta acessar nosso marketplace, achar sua empresa favorita que emita créditos de carbono e efetuar a compra por meio de um click!",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% frio e calculista",
+    title: "100% free carbon",
     content:
-      "Ao contrario de investidores comuns, nosso bot segue padrões e estatística a risca, não cedendo para emoções ou crenças de mercado.",
+      "Ao contrario de empresas comuns de investimento, nós na Sygon colocamos a redução de impactos ambientais em primeiro lugar.",
   },
   {
     id: "feature-3",
     icon: send,
     title: "Transparência total",
     content:
-      "Todas as transações feitas pelos nossos bots podem ser visualizadas pelo investidor.",
+      "Todas as transações feitas na nossa plataforma tem a seguraça e transparência de estarem rodando na blockchain Ethereum.",
   },
 ];
 
