@@ -15,7 +15,7 @@ const Hero = () => (
         </h1>
       </div>
 
-      <p className={`${styles.paragraph} max-w-[620px] mt-5 ss:text-[24px]`}>
+      <p className={`${styles.paragraph} max-w-[620px] mt-5 mb-5 ss:text-[24px]`}>
         Bem vindo a <span className="text-gradient text-[26px]">SYGON!</span> Seu marketplace de créditos de carbono. 
         Impulsione sua empresa com a compra e venda de créditos de carbono, apoiando o mercado e ajudando a criar um futuro mais sustentável.
       </p>
