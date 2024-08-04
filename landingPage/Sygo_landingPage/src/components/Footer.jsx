@@ -10,7 +10,7 @@ const Footer = () => (
         <img src={logosygon} alt="logo vortex" className="w-[266px] h-[72px] object-contain"/>
 
         <p className={`${styles.paragraph} mt-4 max-w-[312px]`}>
-          Um novo jeito de diversificar os seus investimentos em cripto.
+          Um novo jeito de compensar suas emissões de carbono.
         </p>
       </div>
 
@@ -35,14 +35,21 @@ const Footer = () => (
 
     <div className="w-full flex justify-between items-center md:flex-row flex-col pt-6 vorder-t-[1px] border-t-[#3F3E45]">
       <p className="font-poppins font-normal text-center text-[18px] leading-[27px] text-white">
-        2024 Vortex. All Rights Reserved.
+        2024 SYGON. All Rights Reserved.
       </p>
 
       <div className="flex flex-row md:mt-0 mt-6">
-        {socialMedia.map((social, index) => (
-          <img key={social.key} src={social.icon} alt={social.id} className={`w-[21px] h-[21px] object-contain cursor-pointer ${index !== socialMedia.length -1 ? 'mr-6' : 'mr-0'}`}/>
-        ))}
-      </div>
+  {socialMedia.map((social, index) => (
+    <a key={social.key} href={social.link} target="_blank" rel="noopener noreferrer">
+      <img 
+        src={social.icon} 
+        alt={social.id} 
+        className={`w-[21px] h-[21px] object-contain cursor-pointer ${index !== socialMedia.length - 1 ? 'mr-6' : 'mr-0'}`}
+      />
+    </a>
+  ))}
+</div>
+
     </div>
   </section>
 )
