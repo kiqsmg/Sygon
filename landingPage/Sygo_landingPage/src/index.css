@@ -11,6 +11,14 @@
     #7FFF00 -78.47%,  /* chartreuse green */
     #ADFF2F 91.61%    /* lighter chartreuse green */
   );
+
+  --bg-black-gradient: linear-gradient(
+      144.39deg,
+      #001a00 -278.56%, /* almost black green */
+      #336600 -78.47%,  /* very dark chartreuse */
+      #4d7300 91.61%    /* dark chartreuse */
+    );
+
   --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
 }
 
@@ -49,11 +57,13 @@
 .bg-black-gradient {
   background: linear-gradient(
     144.39deg,
-    #006400 -278.56%, /* dark green */
-    #7FFF00 -78.47%,  /* chartreuse green */
-    #ADFF2F 91.61%    /* lighter chartreuse green */
+    #001a00 -278.56%, /* almost black green */
+    #336600 -78.47%,  /* very dark chartreuse */
+    #4d7300 91.61%    /* dark chartreuse */
   );
 }
+
+
 
 .bg-black-gradient-2 {
   background: linear-gradient(
@@ -108,7 +118,7 @@
 }
 
 .feature-card:hover {
-  background: var(--black-gradient);
+  background: var(--bg-black-gradient);
   box-shadow: var(--card-shadow);
 }
 

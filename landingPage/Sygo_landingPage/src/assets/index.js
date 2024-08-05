@@ -3,7 +3,7 @@ import logosygon from "./logosygon.svg";
 import quotes from "./quotes.svg";
 import plant from "./plant6.png";
 
-import send from "./Send.svg";
+import blockchain from "./blockchain.svg";
 import shield from "./Shield.svg";
 import star from "./Star.svg";
 import menu from "./menu.svg";
@@ -17,13 +17,15 @@ import teamplayer02 from "./teamplayer02.jpeg";
 import whatsapp from "./whatsapp.svg";
 import tiktok from "./tiktok.svg";
 
+import polution from "./polution.jpg";
+
 export {
   logo_grande,
   logo,
   logosygon,
   quotes,
   plant,
-  send,
+  blockchain,
   shield,
   star,
   menu,
@@ -34,4 +36,5 @@ export {
   tiktok,
   teamplayer01,
   teamplayer02,
+  polution,
 };
