@@ -15,7 +15,7 @@ const Team = () => (
       </h1>
     </div>
 
-    <p className="font-poppins font-semibold text-dimWhite mb-10 text-center max-w-[800px] ">Nossa equipe foi construida com a ideia principal de "tornar a preservação ambiental lucrativa",
+    <p className="font-poppins font-semibold text-dimWhite mb-10 text-center max-w-[800px] ">Nossa equipe foi construida com a ideia principal de "tornar preservação um negócio lucrativo",
        assim nossos fundadores se juntaram para solucionar dores do mercado de carbono. Contamos com membros especializados,
        em financeiro, jurídico e desenvolvimento.</p>
 

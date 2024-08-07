@@ -17,7 +17,8 @@ import teamplayer02 from "./teamplayer02.jpeg";
 import whatsapp from "./whatsapp.svg";
 import tiktok from "./tiktok.svg";
 
-import polution from "./polution.jpg";
+import verde from "./verde.jpg";
+import credito from "./credito.png"
 
 export {
   logo_grande,
@@ -36,5 +37,6 @@ export {
   tiktok,
   teamplayer01,
   teamplayer02,
-  polution,
+  verde,
+  credito,
 };

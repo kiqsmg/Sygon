@@ -1,12 +1,12 @@
 import React from 'react';
 import styles from "../style";
-import { polution } from "../assets";
+import { verde } from "../assets";
 
 const Mercado = () => (
   <section id="carbono" className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row  flex-col rounded-[20px] box-shadow`}>
 
     <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 mr-20 relative`}>
-        <img src={polution} alt="billing" className="w-[80%] h-[80%] relative z-[5] rounded-lg" />
+        <img src={verde} alt="billing" className="w-[80%] h-[80%] relative z-[5] rounded-lg" />
 
         {/* gradient start */}
         <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
