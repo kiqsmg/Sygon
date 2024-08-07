@@ -7,6 +7,7 @@ import Hero from "./Hero";
 import About from "./About";
 import Business from "./Business";
 import Mercado from "./Mercado";
+import Credito from "./Credito";
 
 export {
   Navbar,
@@ -18,4 +19,5 @@ export {
   About,
   Business,
   Mercado,
+  Credito,
 };

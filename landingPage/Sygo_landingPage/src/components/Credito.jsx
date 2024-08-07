@@ -2,7 +2,7 @@ import React from 'react';
 import styles from "../style";
 import { polution } from "../assets";
 
-const Mercado = () => (
+const Credito = () => (
   <section id="carbono" className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row  flex-col rounded-[20px] box-shadow`}>
 
     <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 mr-20 relative`}>
@@ -17,10 +17,10 @@ const Mercado = () => (
 
 
     <div className="flex-1 flex flex-col mb-10">
-      <h2 className={styles.heading2}>Mercado de carbono no Brasil</h2>
+      <h2 className={styles.heading2}>Credito de carbono no Brasil</h2>
 
       <ul className="list-inside list-disc mt-5 font-poppins font-normal text-dimWhite text-[18px] leading-[24px]">
-        <li className="mb-5">Mercado de crédito no Brasil: R$ 150 MILHÕES/ANO</li>
+        <li className="mb-5">Credito de crédito no Brasil: R$ 150 MILHÕES/ANO</li>
         <li className="mb-5">Brasil tem 15% do potencial global de captura de carbono</li>
         <li className="mb-5">Potencial para produzir US$125 BI em créditos</li>
       </ul>
@@ -29,4 +29,4 @@ const Mercado = () => (
   </section>
 )
 
-export default Mercado
+export default Credito
