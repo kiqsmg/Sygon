@@ -1,4 +1,4 @@
-import { teamplayer01, teamplayer02, instagram, tiktok, send, shield, star, whatsapp  } from "../assets";
+import { teamplayer01, teamplayer02, instagram, tiktok, blockchain, shield, star, whatsapp  } from "../assets";
 
 //basic plain data that can be changed by nonprogrammers
 
@@ -47,7 +47,7 @@ export const features = [
   },
   {
     id: "feature-3",
-    icon: send,
+    icon: blockchain,
     title: "Transparência total",
     content:
       "Todas as transações feitas na nossa plataforma tem a seguraça e transparência de estarem rodando na blockchain Ethereum.",
