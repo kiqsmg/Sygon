@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './style';
 
-import { CTA, Footer, Hero, Navbar, Stats, About, Team, Business, Polution } from "./components";
+import { CTA, Footer, Hero, Navbar, Stats, About, Team, Business, Mercado } from "./components";
 
 
 const App = () => (
@@ -22,7 +22,7 @@ const App = () => (
         <Stats />
         <About />
         <Business />
-        <Polution />
+        <Mercado />
         <CTA /> 
         <Team />
         <Footer /> 

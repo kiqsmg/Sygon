@@ -6,7 +6,7 @@ import Footer from "./Footer";
 import Hero from "./Hero";
 import About from "./About";
 import Business from "./Business";
-import Polution from "./Polution";
+import Mercado from "./Mercado";
 
 export {
   Navbar,
@@ -17,5 +17,5 @@ export {
   Hero,
   About,
   Business,
-  Polution,
+  Mercado,
 };
