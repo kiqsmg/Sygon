@@ -13,15 +13,11 @@ export const navLinks = [
     title: "Sobre",
   },
   {
-    id: "carbono",
-    title: "Emissão",
-  },
-  {
     id: "credito",
     title: "Crédito",
   },
   {
-    id: "marketplace",
+    id: "CTA",
     title: "Marketplace",
   },
   {
