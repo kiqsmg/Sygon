@@ -15,10 +15,9 @@ const Team = () => (
       </h1>
     </div>
 
-    <p className="font-poppins font-semibold text-dimWhite mb-10 text-center max-w-[800px] ">Nossa equipe foi cuidadosamente selecionada com o objetivo de proporcionar a mais elevada
-     experiência ao nosso consumidor. Desde a interface gráfica visível até o código eficiente que opera nos bastidores,
-      priorizamos a segurança e a agilidade nas transações para os nossos bots. Com isso em mente, contamos com membros especializados,
-       desde designers de UX/UI até programadores especializados em backend e criptomoedas.</p>
+    <p className="font-poppins font-semibold text-dimWhite mb-10 text-center max-w-[800px] ">Nossa equipe foi construida com a ideia principal de "tornar a preservação ambiental lucrativa",
+       assim nossos fundadores se juntaram para solucionar dores do mercado de carbono. Contamos com membros especializados,
+       em financeiro, jurídico e desenvolvimento.</p>
 
     <div className="flex flex-wrap justify-center w-full feedback-container relative z-[1] mt-10 ml-12 gap-20 sm:gap-0 ">
       {teamplayers.map((card) => <TeamCard key={card.id} {...card} />)}
