@@ -4,7 +4,7 @@ import { credito } from "../assets";
 
 const Credito = () => (
   <section
-    id="carbono"
+    id="credito"
     className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col rounded-[20px] box-shadow`}
   >
     {/* Left side: Text content */}
