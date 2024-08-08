@@ -19,7 +19,7 @@ const Mercado = () => (
     <div className="flex-1 flex flex-col mb-10">
       <h2 className={styles.heading2}>Mercado de carbono no Brasil</h2>
 
-      <ul className="list-inside list-disc mt-5 ml-5 font-poppins font-normal text-dimWhite text-[18px] leading-[24px]">
+      <ul className="list-inside list-disc mt-5 ml-5 font-poppins font-normal text-dimWhite text-[24px]">
         <li className="mb-5">Mercado de crédito no Brasil: R$ 150 MILHÕES/ANO</li>
         <li className="mb-5">Brasil tem 15% do potencial global de captura de carbono</li>
         <li className="mb-5">Potencial para produzir US$125 BI em créditos</li>
