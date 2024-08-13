@@ -2,6 +2,7 @@ import pandas as pd
 
 # Load the drivers and car consumption data
 drivers = pd.read_csv('./MOCK_DATA.csv')
+
 car_info = pd.read_csv('./car_consumption_info.csv')
 
 # Merge the drivers dataframe with the car_info dataframe to get the corresponding average_consumption
