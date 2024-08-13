@@ -1,0 +1,101 @@
+car_make,car_model,car_year,fuel_type,average_consumption
+Buick,Park Avenue,1999,1,15
+Buick,LeSabre,1989,2,14
+Chevrolet,Suburban 1500,1992,3,7
+GMC,Envoy,2000,3,16
+Nissan,Pathfinder,2005,2,8
+Ferrari,599 GTB Fiorano,2008,2,16
+Volkswagen,R32,2009,2,10
+Infiniti,QX,2011,2,13
+Cadillac,Escalade ESV,2003,2,7
+Acura,Legend,1990,2,10
+Ford,Explorer,2004,2,15
+Mazda,Mazda6,2008,1,12
+Chevrolet,Corvette,1998,1,8
+Volkswagen,Cabriolet,1987,2,13
+Lexus,RX Hybrid,2011,3,16
+Dodge,Ram 3500,2008,3,14
+Pontiac,Grand Prix,2005,1,10
+Mitsubishi,Mirage,2002,3,13
+Mazda,RX-7,1984,1,9
+Nissan,Sentra,2005,3,15
+GMC,Savana 2500,2011,2,15
+Acura,Vigor,1993,2,7
+Hyundai,Azera,2010,3,7
+Chevrolet,TrailBlazer,2007,3,8
+Mazda,Navajo,1992,1,16
+Nissan,Maxima,1992,3,16
+Volkswagen,Passat,1987,3,15
+Buick,Century,2002,3,13
+Audi,A6,2010,3,16
+Mazda,929,1987,1,15
+GMC,Sonoma Club Coupe,1995,2,14
+Hummer,H1,2006,3,9
+Ford,Escort,2000,2,13
+Lamborghini,Diablo,1999,2,7
+Buick,Coachbuilder,1994,3,11
+Ferrari,F430,2008,3,16
+Maybach,62,2005,2,10
+Acura,TL,1999,3,8
+Cadillac,Seville,1998,3,13
+Audi,A8,2003,3,9
+Land Rover,Discovery,2012,2,12
+Plymouth,Colt Vista,1992,1,8
+Jensen,Interceptor,1967,3,14
+Chevrolet,Corvette,1962,1,16
+Acura,TL,2006,2,8
+Subaru,Legacy,2005,3,10
+Scion,xD,2008,2,7
+Ford,Bronco,1993,3,7
+Jeep,Liberty,2006,1,14
+Mitsubishi,Lancer,2006,3,12
+Toyota,Matrix,2006,2,16
+Nissan,Sentra,2008,1,14
+Suzuki,Cultus,1985,3,11
+Mitsubishi,Mighty Max,1994,1,8
+BMW,5 Series,2007,3,16
+Chrysler,300,2006,3,16
+Porsche,911,1993,1,13
+Toyota,Venza,2011,1,12
+Hyundai,Sonata,2011,2,7
+Toyota,Tacoma,2003,1,12
+Lincoln,Town Car,2006,3,10
+GMC,Yukon,1998,2,16
+Chevrolet,Avalanche,2008,2,10
+Mercedes-Benz,R-Class,2011,3,8
+Volvo,V40,2003,3,9
+Pontiac,Bonneville,1986,1,14
+Chevrolet,Silverado 1500,2002,3,8
+Mitsubishi,Chariot,1995,3,13
+Nissan,Altima,2009,1,7
+Lotus,Esprit,1992,2,9
+Mazda,626,2002,3,7
+Buick,Century,1986,1,14
+Chevrolet,Sportvan G20,1995,3,13
+Mercedes-Benz,S-Class,2000,1,13
+BMW,M3,1998,1,16
+Volvo,S80,2009,2,16
+Ford,F150,2002,2,7
+BMW,6 Series,2009,1,7
+Mercedes-Benz,S-Class,1999,3,9
+Ford,Expedition EL,2012,2,7
+Hyundai,Sonata,2012,3,8
+Chevrolet,Express 3500,1998,2,14
+Ford,Thunderbird,1972,2,16
+Pontiac,GTO,1971,2,15
+Chevrolet,Blazer,2005,2,11
+Chevrolet,Beretta,1993,1,10
+Lincoln,Continental,1986,1,7
+Kia,Rio,2001,2,16
+Mazda,Miata MX-5,2012,3,11
+Ford,Focus,2011,2,13
+Subaru,Baja,2003,2,14
+Suzuki,Grand Vitara,2008,3,16
+Tesla,Roadster,2011,1,11
+Volkswagen,Jetta,2010,2,13
+Mercedes-Benz,CL-Class,1999,3,8
+GMC,Savana 1500,2004,2,11
+GMC,3500 Club Coupe,1995,3,13
+Lincoln,Town Car,2007,2,7
+Nissan,Maxima,1995,1,10
+Chevrolet,Monte Carlo,1998,1,7
