@@ -9,7 +9,7 @@ car_info = pd.read_csv('./car_consumption_info.csv')
 merged_data = pd.merge(drivers, car_info, on=['car_make', 'car_model', 'car_year', 'fuel_type'])
 
 # Calculate the CO2 emissions for each driver
-merged_data['co2_emission'] = merged_data['average_consumption'] * merged_data['km_done'] * 2.28
+merged_data['co2_emission'] = merged_data['average_consumption'] * merged_data['km_done'] * 2.28 /1000
 
 print(merged_data)
 # Select relevant columns for the final output
