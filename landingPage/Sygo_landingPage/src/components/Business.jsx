@@ -23,7 +23,7 @@ const Business = () => {
     <section id="bot" className={layout.section}>
         <div className={layout.sectionInfo}>
             <h2 className={styles.heading2}>
-                Faça seu <span className="text-gradient text-[44px]">NEGÓCIO</span> crescer, enquanto ajuda o meio<br className="sm:block hidden" /> ambiente à se<span className="text-gradient text-[44px]"> desenvolver.</span>
+                Compre <span className="text-gradient text-[44px]">CONSCIENTE</span>  da sua casa ou direto no mercado! Sem precisar parar suas compras.
             </h2>
         </div>
 

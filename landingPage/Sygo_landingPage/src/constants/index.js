@@ -32,21 +32,21 @@ export const features = [
     icon: star,
     title: "Praticidade",
     content:
-      "Basta acessar nosso marketplace, achar sua empresa favorita que emita créditos de carbono e efetuar a compra por meio de um click!",
+      "Basta baixar nossa extensão do Chrome ou pesquisar a empresa no nosso portal, tudo que você precisa saber sobre susntentábilidade de uma empresa á um click!",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% free carbon",
+    title: "100% confiavel",
     content:
-      "Ao contrario de empresas comuns de investimento, nós na Sygon colocamos a redução de impactos ambientais em primeiro lugar.",
+      "Nosso time de especialista tem como foco analisar relatórios sustentáveis de grandes empresas para facilitar o entendimento para os compradores.",
   },
   {
     id: "feature-3",
     icon: blockchain,
     title: "Transparência total",
     content:
-      "Todas as transações feitas na nossa plataforma tem a seguraça e transparência de estarem rodando na blockchain Ethereum.",
+      "Todas as empresas analisadas recebem uma nota de qualidade referente ao quão sustentavel ela foi no útimo ano, e disponibilizamos um breve resumo dos seus resultados.",
   },
 ];
 
