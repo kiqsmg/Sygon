@@ -9,16 +9,16 @@ export const navLinks = [
     a: ""
   },
   {
-    id: "sobre",
-    title: "Sobre",
+    id: "portal",
+    title: "Portal da Transparência",
   },
   {
-    id: "credito",
-    title: "Crédito",
+    id: "portal",
+    title: "Como avaliamos",
   },
   {
-    id: "CTA",
-    title: "Marketplace",
+    id: "blog",
+    title: "Blog",
   },
   {
     id: "equipe",
@@ -75,8 +75,8 @@ export const stats = [
   },
   {
     id: "stats-2",
-    title: "rápido",
-    value: "+ RÁPIDO",
+    title: "sustentavel",
+    value: "+ SUSTENTÁVEL",
   },
   {
     id: "stats-3",
@@ -85,8 +85,8 @@ export const stats = [
   },
   {
     id: "stats-4",
-    title: "burocrático",
-    value: "- BUROCRÁTICO",
+    title: "verde",
+    value: "+ VERDE",
   },
 ];
 
