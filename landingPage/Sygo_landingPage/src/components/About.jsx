@@ -24,8 +24,10 @@ const About = () => (
       </div>
 
       <p className={`${styles.paragraph} max-w-[720px] mt-5 ss:text-[24px]`}>
-        Na <span className="text-gradient">SYGON</span>, acreditamos em tornar o desenvolvimento ambiental lucrativo. Nossa plataforma permite que pequenas e médias empresas comprem, vendam e negociem tokens de crédito de carbono. Ao alavancar a tecnologia blockchain, tornamos o comércio de créditos de carbono mais acessível, transparente e eficiente, revolucionando a forma como todos podem combater as alterações climáticas.
-        </p>
+        Na <span className="text-gradient text-[26px]">SYGON</span>, sustentabilidade é prioridade! 
+        Oferecemos ferramentas para lhe auxiliar na hora de escolher <span className="text-gradient">produtos online e no mercado.</span> <br />
+        Nossa plataforma facilita a escolha das suas compras ajudando a criar um futuro mais sustentável.
+      </p>
 
     </div>
 
