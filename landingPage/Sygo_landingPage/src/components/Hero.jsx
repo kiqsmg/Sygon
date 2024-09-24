@@ -16,9 +16,9 @@ const Hero = () => (
       </div>
 
       <p className={`${styles.paragraph} max-w-[620px] mt-5 mb-5 ss:text-[24px]`}>
-        Na <span className="text-gradient text-[26px]">SYGON</span>, sustentabilidade é prioridade! 
-        Oferecemos ferramentas para lhe auxiliar na hora de escolher <span className="text-gradient">produtos online e no mercado.</span> <br />
-        Facilite a escolha das suas compras ajudando a criar um futuro mais sustentável.
+        Compras mais <span className="text-gradient text-[26px]">sustentaveis</span> no seu dia a dia! 
+        Simplificamos suas escolhas na hora de comprar<span className="text-gradient"> online e no mercado.</span> <br />
+        Conectando você a empresas comprometidas com o planeta.
       </p>
 
       <Button styles="mt-10 ml-12"></Button>

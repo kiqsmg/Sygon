@@ -13,7 +13,7 @@ export const navLinks = [
     title: "Portal da Transparência",
   },
   {
-    id: "portal",
+    id: "avaliando",
     title: "Como avaliamos",
   },
   {

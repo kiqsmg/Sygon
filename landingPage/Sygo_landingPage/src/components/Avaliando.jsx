@@ -2,9 +2,9 @@ import React from 'react';
 import styles from "../style";
 import { credito } from "../assets";
 
-const Credito = () => (
+const Avaliando = () => (
   <section
-    id="credito"
+    id="avaliando"
     className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col rounded-[20px] box-shadow`}
   >
     {/* Left side: Text content */}
@@ -33,4 +33,4 @@ const Credito = () => (
 );
 
 
-export default Credito
+export default Avaliando
