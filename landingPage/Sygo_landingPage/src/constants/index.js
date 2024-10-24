@@ -1,6 +1,6 @@
-import { teamplayer01, teamplayer02, instagram, tiktok, blockchain, shield, star, whatsapp  } from "../assets";
+import { teamplayer01, teamplayer02, instagram, tiktok, blockchain, shield, star, whatsapp, project01, project02  } from "../assets";
 
-//basic plain data that can be changed by nonprogrammers
+//basic plain data that can be changed by nonprogrammers 
 
 export const navLinks = [
   {
@@ -64,6 +64,25 @@ export const teamplayers = [
     name: "Caique M.Gomes",
     title: "CTO",
     link: "https://www.linkedin.com/in/caique-sales-miranda-gomes-9b9a66185/",
+  }
+];
+
+export const projects = [
+  {
+    id: "project-2",
+    img: project02,
+    name: "Scaner",
+    title: "Scaner para auxiliar nas compras",
+    link: "https://www.linkedin.com/in/marina-ribeiro-ventura/",
+    resume: "O Portal da Transparência será a plataforma principal de acesso, permitindo que consumidores e empresas obtenham informações sobre o desempenho sustentável das empresas brasileiras analisadas pelo projeto.",
+  },
+  {
+    id: "project-1",
+    img: project01,
+    name: "Portal EBS",
+    title: "Empresas Brasileiras pela Sustentabilidade",
+    link: "https://www.linkedin.com/in/caique-sales-miranda-gomes-9b9a66185/",
+    resume: "O Portal da Transparência será a plataforma principal de acesso, permitindo que consumidores e empresas obtenham informações sobre o desempenho sustentável das empresas brasileiras analisadas pelo projeto.",
   }
 ];
 
