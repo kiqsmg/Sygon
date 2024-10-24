@@ -9,16 +9,14 @@ const Hero = () => (
     <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-10`}>
 
       <div className="flex flex-row justify-between items-center w-full">
-        <h1 className="flex-1 font-poppins font-semibold ss:text-[50px] text-[32px] text-white ss:leading-[100px] leading-[40px] ">
-          Consumo <span className="text-gradient">inteligente,</span> <br className="sm:block hidden"/>
-          futuro sustentável!
+        <h1 className="flex-1 font-poppins font-semibold ss:text-[50px] text-[30px] text-white ss:leading-[100px] leading-[40px] ">
+          Tornando a <span className="text-gradient">sustentabilidade,</span> <br className="sm:block hidden"/>
+          num mercado lucrativo!
         </h1>
       </div>
 
       <p className={`${styles.paragraph} max-w-[620px] mt-5 mb-5 ss:text-[24px]`}>
-        Compras mais <span className="text-gradient text-[26px]">sustentaveis</span> no seu dia a dia! 
-        Simplificamos suas escolhas na hora de comprar<span className="text-gradient"> online e no mercado.</span> <br />
-        Conectando você a empresas comprometidas com o planeta.
+        Criamos soluções de sustentabilidade que tornam a redução de <span className="text-gradient text-[26px]">impactos ambientais</span> lucrativa para empresas e <span className="text-gradient text-[26px]">acessível</span> para os consumidores.
       </p>
 
       <Button styles="mt-10 ml-12"></Button>

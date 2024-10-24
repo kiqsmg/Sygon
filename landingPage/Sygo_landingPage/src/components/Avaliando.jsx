@@ -9,10 +9,9 @@ const Avaliando = () => (
   >
     {/* Left side: Text content */}
     <div className="flex-1 flex flex-col justify-center items-start">
-      <h2 className={styles.heading2}>Crédito de carbono</h2>
+      <h2 className={styles.heading2}>Como Avaliamos</h2>
       <p className="font-poppins mt-10 font-semibold text-white text-[18px] leading-[23px] mb-1">
-      Os créditos de carbono surgiram como uma modalidade de mitigar os danos causados por Gases de Efeito Estufa (GEEs) no protocolo de Quioto em 1977, com mais de 175 países participantes do acordo.
-      </p>
+      Cada empresa parceira tem seu relatório de sustentabilidade analisado por engenheiros ambientais da nossa equipe que, seguindo o GHG Protocol, emitem um relátorio simplificado com uma nota final.</p>
     </div>
 
     {/* Right side: Image */}

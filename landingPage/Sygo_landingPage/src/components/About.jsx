@@ -24,9 +24,8 @@ const About = () => (
       </div>
 
       <p className={`${styles.paragraph} max-w-[720px] mt-5 ss:text-[24px]`}>
-        Na <span className="text-gradient text-[26px]">SYGON</span>, sustentabilidade é prioridade! 
-        Oferecemos ferramentas para lhe auxiliar na hora de escolher <span className="text-gradient">produtos online e no mercado.</span> <br />
-        Nossa plataforma facilita a escolha das suas compras ajudando a criar um futuro mais sustentável.
+        Na <span className="text-gradient text-[26px]">SYGON</span>, sustentabilidade é prioridade!
+        Oferecemos ferramentas para auxiliar a transição de empresas para <span className="text-gradient">mercados mais sustentáveis</span>, e ajudamos consumidores na hora de escolher <span className="text-gradient">produtos online e no mercado.</span> <br />
       </p>
 
     </div>
