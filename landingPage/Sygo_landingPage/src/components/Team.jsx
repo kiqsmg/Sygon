@@ -16,8 +16,8 @@ const Team = () => (
     </div>
 
     <p className="font-poppins font-semibold text-dimWhite mb-10 text-center max-w-[800px] ">Nossa equipe foi construida com a ideia principal de "tornar preservação um negócio lucrativo",
-       assim nossos fundadores se juntaram para solucionar dores do mercado de carbono. Contamos com membros especializados,
-       em financeiro, jurídico e desenvolvimento.</p>
+       assim nossos fundadores se juntaram para solucionar dores do mercado de sustentabilidade. Contamos com membros especializados
+       em ecologia, leis ambientais, financeiro, jurídico e desenvolvimento.</p>
 
     <div className="flex flex-wrap justify-center w-full feedback-container relative z-[1] mt-10 ml-12 gap-20 sm:gap-0 ">
       {teamplayers.map((card) => <TeamCard key={card.id} {...card} />)}

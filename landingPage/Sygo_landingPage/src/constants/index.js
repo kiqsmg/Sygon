@@ -1,4 +1,4 @@
-import { teamplayer01, teamplayer02, instagram, tiktok, blockchain, shield, star, whatsapp, project01, project02  } from "../assets";
+import { teamplayer01, teamplayer02, teamplayer03, instagram, tiktok, blockchain, shield, star, whatsapp, project01, project02  } from "../assets";
 
 //basic plain data that can be changed by nonprogrammers 
 
@@ -51,6 +51,13 @@ export const features = [
 ];
 
 export const teamplayers = [
+  {
+    id: "teamplayer-3",
+    img: teamplayer03,
+    name: "Leticia Silva",
+    title: "CMO",
+    link: "https://www.linkedin.com/in/leticia-alvesda-silva/",
+  },
   {
     id: "teamplayer-2",
     img: teamplayer02,
