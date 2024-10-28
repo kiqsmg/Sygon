@@ -33,7 +33,11 @@
 ## Overview
 
 Sygon is a platform for buying, selling, and trading carbon credits tokens. At Sygon, we're revolutionizing the way individuals and organizations participate in the fight against climate change by leveraging blockchain technology to make carbon credit trading more accessible, transparent, and efficient than ever before.
-<img width="80%" src="https://github.com/kiqsmg/Sygon/blob/main/Brand/landingpage.png">
+<br />
+    <a href="https://sygonn.netlify.app/" target="_blank">
+          <img width="80%" src="https://github.com/kiqsmg/Sygon/blob/main/Brand/landingpage.png">
+    </a>
+  <br />
 
 ## Marketplace
 
