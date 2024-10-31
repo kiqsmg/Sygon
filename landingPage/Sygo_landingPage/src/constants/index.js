@@ -32,14 +32,14 @@ export const features = [
     icon: star,
     title: "Praticidade",
     content:
-      "Basta baixar nossa extensão do Chrome ou pesquisar a empresa no nosso portal, tudo que você precisa saber sobre susntentábilidade de uma empresa á um click!",
+      "Basta acessar nosso portal ou baixar nossa extensão do Chrome, tudo que você precisa saber sobre susntentábilidade de uma empresa á um click!",
   },
   {
     id: "feature-2",
     icon: shield,
     title: "100% confiavel",
     content:
-      "Nosso time de especialista tem como foco analisar relatórios sustentáveis de grandes empresas para facilitar o entendimento para os compradores.",
+      "Nosso time de especialista tem como foco analisar relatórios sustentáveis de empresas para facilitar o entendimento para os compradores.",
   },
   {
     id: "feature-3",
