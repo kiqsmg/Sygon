@@ -29,12 +29,12 @@
 .text-gradient {
   background: radial-gradient(
     64.18% 64.18% at 71.16% 35.69%,
-    #006400 0.89%,  /* dark green */
-    #228B22 17.23%, /* forest green */
-    #32CD32 42.04%, /* lime green */
-    #7FFF00 55.12%, /* chartreuse green */
-    #ADFF2F 71.54%, /* lighter chartreuse green */
-    #FFFF00 100%    /* yellow */
+    #063906 0.89%,  /* dark green */
+    #094909 17.23%, /* forest green */
+    #1a6e1a 42.04%, /* lime green */
+    #6bb720 55.12%, /* chartreuse green */
+    #80bf22 71.54%, /* lighter chartreuse green */
+    #ebeb0c 100%    /* yellow */
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

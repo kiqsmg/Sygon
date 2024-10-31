@@ -9,9 +9,9 @@ const Hero = () => (
     <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-10`}>
 
       <div className="flex flex-row justify-between items-center w-full">
-        <h1 className="flex-1 font-poppins font-semibold ss:text-[50px] text-[30px] text-white ss:leading-[100px] leading-[40px] ">
+        <h1 className="flex-1 font-poppins font-semibold ss:text-[50px] text-[30px] text-black ss:leading-[100px] leading-[40px] ">
           Tornando a <span className="text-gradient">sustentabilidade,</span> <br className="sm:block hidden"/>
-          num mercado lucrativo!
+          em um mercado lucrativo!
         </h1>
       </div>
 
