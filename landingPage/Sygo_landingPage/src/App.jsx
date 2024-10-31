@@ -6,7 +6,7 @@ import { CTA, Footer, Hero, Navbar, Stats, About, Team, Business, Mercado, Avali
 
 const App = () => (
   <div className="bg-primary w-full overflow-hidden">
-    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+    <div className={`bg-white ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <Navbar />
       </div>
