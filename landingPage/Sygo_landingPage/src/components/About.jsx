@@ -3,7 +3,7 @@ import styles from "../style";
 import { logo_grande } from "../assets";
 
 const About = () => (
-  <section id="sobre" className={`flex md:flex-row flex-col ${styles.paddingY} `}>
+  <section id="about" className={`flex md:flex-row flex-col ${styles.paddingY} `}>
 
 <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
         <img src={logo_grande} alt="billing" className="w-[80%] h-[80%] relative z-[5]" />
