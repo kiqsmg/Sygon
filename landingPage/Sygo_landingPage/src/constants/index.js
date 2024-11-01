@@ -5,23 +5,23 @@ import { teamplayer01, teamplayer02, teamplayer03, instagram, tiktok, blockchain
 export const navLinks = [
   {
     id: "home",
-    title: "Home",
+    title: "Página Inicial",
     a: ""
   },
   {
-    id: "portal",
-    title: "Portal da Transparência",
+    id: "solutions",
+    title: "Soluções",
   },
   {
-    id: "avaliando",
-    title: "Como avaliamos",
+    id: "about",
+    title: "A SYGON",
   },
   {
     id: "blog",
     title: "Blog",
   },
   {
-    id: "equipe",
+    id: "team",
     title: "Equipe",
   },
 ];
