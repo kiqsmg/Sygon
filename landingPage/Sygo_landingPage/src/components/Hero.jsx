@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from "../style";
 import { plant } from "../assets";
-import Button from "./Button"
+import Button from "./Button";
 
 
 const Hero = () => (
@@ -22,8 +22,6 @@ const Hero = () => (
       <Button styles="mt-10 ml-12"></Button>
 
     </div>
-
-
     <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
         <img src={plant} alt="billing" className="w-[80%] h-[80%] relative z-[5]" />
 
