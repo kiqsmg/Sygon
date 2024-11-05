@@ -21,7 +21,8 @@ import whatsapp from "./whatsapp.svg";
 import tiktok from "./tiktok.svg";
 
 import verde from "./verde.jpg";
-import credito from "./credito.png"
+import credito from "./credito.png";
+import painel from "./painel_verde.png";
 
 export {
   logo_grande,
@@ -45,4 +46,5 @@ export {
   project02,
   verde,
   credito,
+  painel,
 };
