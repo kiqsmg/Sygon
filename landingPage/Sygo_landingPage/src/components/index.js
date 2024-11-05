@@ -8,6 +8,7 @@ import About from "./About";
 import Business from "./Business";
 import Mercado from "./Mercado";
 import Avaliando from "./Avaliando";
+import Solutions from "./Solutions";
 
 export {
   Navbar,
@@ -20,4 +21,5 @@ export {
   Business,
   Mercado,
   Avaliando,
+  Solutions,
 };
