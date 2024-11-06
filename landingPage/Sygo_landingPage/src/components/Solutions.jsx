@@ -14,9 +14,10 @@ const Solutions = () => {
         spaceBetween={50}
         slidesPerView={3}
         autoplay={{
-          delay: 8000,
+          delay: 4000,
           disableOnInteraction: false,
         }}
+        speed={2000} // Define a velocidade da transição para 2 segundos
         modules={[Autoplay]}
         onSlideChange={(swiper) => setActiveIndex(swiper.activeIndex)}
         centeredSlides={true} // Centraliza o slide ativo
