@@ -15,32 +15,26 @@ const Hero = () => (
         </div>
 
         <p className={`${styles.paragraph} max-w-[760px] mt-10 mb-5 ss:text-[36px]`}>
-        Nós criamos soluções que tornam as práticas de ESG <span className="font-bold text-[38px]">lucrativas</span> para as empresas e <span className="font-bold text-[38px]">acessíveis</span> para os consumidores.
+        Nós criamos soluções que tornam as práticas de ESG <span className="font-bold text-[20px] ss:text-[38px]">lucrativas</span> para as empresas e <span className="font-bold text-[20px] ss:text-[38px]">acessíveis</span> para os consumidores.
         </p>
 
         <Button styles="mt-10 bg-forth"></Button>
       </div>
 
     </div>
-    <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
+    <div className={`flex-1 flex md:my-0 my-10 `}>
         <img 
-          src={painel} 
-          alt="billing"
-          className="w-[100%] h-[80%] absolute top-0 left-0 z-[10]" // Configuração absoluta
-          style={{ 
+          src={painel}
+          alt="Green panel"
+          className=" absolute top-0 left-0 z-[10] hidden md:block" // Configuração absoluta
+          style={{
             transform: "rotate(90deg) scale(-1, 1)", // Gira 90 graus e inverte o eixo X
-            top: "70%", 
-            left: "50%",
+            top: "80%",
+            left: "85%",
             transformOrigin: "center", // Define o ponto de origem da rotação no centro da imagem
             translate: "-50% -50%", // Centraliza a imagem
           }}
         />
-
-        {/* gradient start */}
-        <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
-        <div className="absolute z-[1] w-[80%] h-[80%] rounded-full white__gradient bottom-40" />
-        <div className="absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient" />
-        {/* gradient end */}
     </div>
 
   </section>
